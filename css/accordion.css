@@ -1,0 +1,32 @@
+section{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.accordion-header{
+    background: lightgray;
+    padding: 15px 10px;
+    color: #1F1F1F;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+.accordion-header:after{
+    content: '\02795';
+    float: right;
+    color: #FFF;
+}
+.accordion-header:hover{
+    background: gray;
+    transition: .1s;
+    color: white;
+}
+
+
+.accordion-content{
+    display: none;
+    margin: 0;
+    padding: 15px 10px;
+    font: sans-serif;
+}
+
