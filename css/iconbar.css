@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+}
+ul li{
+    height: 50px;
+    width: 50px;
+    background: green;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+ul li:hover{
+    background: gray;
+    transition: .2s;
+}
