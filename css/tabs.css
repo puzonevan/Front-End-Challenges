@@ -1,0 +1,39 @@
+.tabs{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-navigation{
+    background:  #EFEFEF;
+    border: 1px solid lightgray;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+}
+.tab-navigation .active{
+    background: lightgray;
+}
+.tab-button, .toggle{
+    border: none;
+    background: none;
+    font-size: 16px;
+    padding: 25px 10px;
+}
+.tab-button:hover{
+    background: lightgray;
+}
+
+
+.tab-content{
+    padding: 10px 25px;
+    margin: 0;
+    border: 1px solid lightgray;
+    opacity: 0;
+    transition: .2s;
+}
+
+.fade{
+    opacity: 1;
+}
