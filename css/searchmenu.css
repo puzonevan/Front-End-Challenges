@@ -1,0 +1,21 @@
+#city{
+    border: none;
+    border: 1px solid lightgray;
+    height: 30px;
+    width: 200px;
+}
+#city:focus{
+    background: #DFDFDF;
+}
+
+.city-list{
+    list-style: none;
+    padding: 0;
+}
+
+.city{
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 18px 10px;
+}
