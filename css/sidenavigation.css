@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.side-nav ul{
+    height: 100%;
+    background-color: #111;
+    top: 0;
+    left: 0;
+    width: 250px;
+    z-index: 1;
+    transition: .3s;
+    overflow: hidden;
+    position: fixed;
+}
+
+.side-nav ul{
+    list-style: none;
+    padding: 0;
+}
+.side-nav li{
+    padding: 8px 8px 8px 32px;
+    transition: .3s;
+}
+
+.side-nav a, .close{
+    position: relative;
+    text-decoration: none;
+    font-family: "Verdana";
+    font-size: 24px;
+    color: #818181;
+}
+.side-nav a:hover{
+    color: #f1f1f1;
+}
+.close{
+    text-align: end;
+}
+.close:hover{
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.button-group button{
+    display: block;
+}

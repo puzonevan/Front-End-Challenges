@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sidenavigation.css">
+    <script src="../js/sidenavigation.js"></script>
+    <title>Side Navigation</title>
+</head>
+<body>
+    <nav class="side-nav">
+        <ul id="side-nav">
+            <li class="close" onClick="closeNav()">&times;</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Client</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="button-group" id="content">
+        <button type="button" onClick="openNav('250px')">Sidenav overlay</button>
+        <button type="button" onClick="openNavNoAnimate('250px')">Sidenav overlay w/o animation</button>
+        <button type="button" onClick="openNavPush('250px')">Sidenav push canvas</button>
+        <button type="button" onClick="openNavPushOpacity('250px')">Sidenav push opacity</button>
+        <button type="button" onClick="openNav('100vw')">Sidenav full width</button>
+    </div>
+</body>
+</html>
