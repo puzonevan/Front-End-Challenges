@@ -23,3 +23,4 @@ function openNavPushOpacity(width){
     document.getElementById("side-nav").style.position = `static`;
     document.getElementById("side-nav").style.width = `${width}`;
 }
+
